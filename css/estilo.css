@@ -1,0 +1,110 @@
+.nav{
+	margin-left: 35%;
+	font-size: 20px;
+	
+}
+
+body{ 
+	font-family: 'PT Sans', sans-serif;
+	background-color:'#f3f3f3';
+}
+.imageProfile{
+    width: 150px;
+    border-radius: 70px;
+    margin-top: 40px;
+}
+.profileAside{
+	padding-left: 15px;
+	text-align: center;
+	width: 15%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: #bfc0c2;
+	height: 100%;
+}
+.myDescription{
+	font-style: italic;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.contenedorPrincipal{
+	width: 80%;
+	display: inline-block;
+	vertical-align: top;
+}
+.Subtitulo{
+	color: #d4d6d7;
+	margin-left: 20px;
+}
+.glyphicon-globe{
+	font-size: 70px;
+}
+.contacProfile{
+	text-align: center;
+}
+.contenedorHabilidades{
+	width: 80%;
+	display:inline-block;
+	background-color: #1d5377;
+	margin-top: 150px;
+	margin-left: 30px;
+}
+.oficina{
+	font-size: 20px;
+}
+#menu{
+	position: fixed;
+	z-index: 70;
+}
+.contenedorPortafolio div img{
+	max-width: 400px;
+	max-height: 250px;
+	margin: 50px;
+	height: 230px;
+}
+.contenedorPortafolio{
+	text-align: center;
+}
+#section0{
+	background-color: #d4d6d7;
+
+}
+#section1{
+	background-color: #bfc0c2;
+}
+#section2{
+	background-color: #d4d6d7;
+}
+.list-group-item{
+	background-color: #1d5377;
+}
+.list-group-item-text{
+	color: #d4d6d7;
+	margin-left: 60px;	
+}
+.list-group-item-heading{
+	color: #ff8c00 !important;
+	margin-left: 30px;	
+}
+a.list-group-item:hover, a.list-group-item:focus{
+	background: #1d5377 !important;
+
+}
+.glyphicon-globe{
+	color: #6899b2;
+}
+.glyphicon-home{
+	color: #6899b2;
+}
+.glyphicon-earphone{
+	color: #6899b2;
+}
+.glyphicon-envelope{
+	color: #6899b2;
+}
+.glyphicon-envelope{
+	color: #6899b2;
+}
+.glyphicon-envelope{
+	color: #6899b2;
+}
