@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Anabel Cuichan</title>
+	<!-- Latest compiled and minified CSS -->
+<script src="js/jquery-1.11.1.min.js"></script>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/estilo.css">
+<link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+<script type="text/javascript" src="vendors/jquery.slimscroll.min.js"></script>
+<script type="text/javascript" src="vendors/jquery.easings.min.js"></script>
+
+</head>
+<body>
+	<header>
+		<ul class="nav nav-pills" id="menu">
+  			<li class="active" data-menuanchor="firstPage">
+  				<a href="#firstPage">Habilidades</a></li>
+  			<li data-menuanchor="secondPage">
+  				<a href="#secondPage">Contratame</a></li>
+ 			<li data-menuanchor="3rdPage">
+ 				<a href="#3rdPage">Portafolio</a></li>
+		</ul>
+
+	</header>
+	<div id="fullpage">
+		 
+	<div class="contenedorPrincipal section" id="section0"> 
+	<aside class="profileAside"> 
+		<img src = "https://scontent-b-mia.xx.fbcdn.net/hphotos-prn2/v/t1.0-9/1378314_583671811670128_1272103602_n.jpg?oh=6181c143be49f07b0853f6db2c8bfd77&oe=54BF290F"class="imageProfile">
+		<br>
+		<label>ANABEL</label>
+		<label class= "myDescription">"La esperanza es el sueño de los que estan despiertos."</label>
+	</aside>
+	<div class="contenedorHabilidades">
+		<h2 class="Subtitulo">
+			HABILIDADES
+		</h2>
+		<div class="list-group">
+  			<a href="#" class="list-group-item">
+
+    			<h4 class="list-group-item-heading">HTML</h4>
+    			<p class="list-group-item-text">Es un estandar que sirve de referencia para la elaboracion de paginas web en sus diferentes versiones</p>
+
+    			<h4 class="list-group-item-heading">Java Script</h4>
+    			<p class="list-group-item-text">Es un lenguaje de programacion interpretado, dialecto del estandar ECMAScript. Se define como orientado a objetos, basado en prototipos, imperativo, debilmente tipado y dinamico</p>
+
+    			<h4 class="list-group-item-heading">CSS3</h4>
+    			<p class="list-group-item-text">Es un lenguaje para definir el estilo o la apariencia de las paginas web, escritas con HTML o de los documentos XML.</p>
+
+    			<h4 class="list-group-item-heading">IQuery</h4>
+    			<p class="list-group-item-text">Es una biblioteca de JavaScript, creada inicialmente por John Resig, que permite simplificar la manera de interactuar con los documentos HTML</p>
+  			</a>
+		</div>
+	</div>
+
+	</div>
+	<div class= "contacProfile section" id="section1">
+		<span class="glyphicon glyphicon-globe"></span>
+		<br>
+		<label class="oficina"> -Oficina-</label>
+		<h2>Sangolqui</h2>
+		<div>
+			<span class="glyphicon glyphicon-home"></span>
+			<label>Calle Alfredo Albornoz y Tumbaco </label>
+		</div>
+				
+		<div>
+			<span class="glyphicon glyphicon-home"></span>
+			<label>Sangolqui-Ecuador</label>
+		</div>
+		
+		<div>
+			<span class="glyphicon glyphicon-earphone"></span>
+			<label>2870-206 / 0979208355</label>
+		</div>
+		
+		<div>
+			<span class="glyphicon glyphicon-envelope"></span>
+			<label>anabel.cuichan@hotmail.com</label>
+		</div>
+		<div>
+			<span class="glyphicon glyphicon-envelope"></span>
+			<label>https://www.facebook.com/anabel.cuichan</label>
+		</div>
+		<div>
+			<span class="glyphicon glyphicon-envelope"></span>
+			<label>https://twitter.com/AnabelCuichan</label>
+		</div>
+
+	</div>
+
+	<div class="contenedorPortafolio section" id="section2">
+		<div>			
+			<img src="Imagenes/busca mina.png">
+			<img src="Imagenes/edades.png">
+			
+		</div>
+		<div>			
+			<img src="Imagenes/tabla.png">
+			<img src="Imagenes/computadores.png">
+		</div>
+
+	</div>
+
+</div>
+<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'lastPage'],
+				menu: '#menu'
+			});
+
+		});
+	</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
